@@ -17,18 +17,14 @@ class HIFG
 	{
 		global $user_info, $txt;
 
-		$new_codes = [];
-		foreach ($codes as $code)
+		foreach ($codes as &$code)
 		{
-			if ($code['tag'] == 'img')
+			if ($code['tag'] == 'img' && $user_info['is_guest'])
 			{
-				$code['content'] = $user_info['is_guest'] ? $txt['hifg_cannot_view'] . '<br />' : $code['content'];
-				$code['disabled_content'] = $user_info['is_guest'] ? $txt['hifg_cannot_view'] . '<br />' : $code['disabled_content'];
+				$code['content'] = $txt['hifg_cannot_view'] . '<br />';
+				$code['disabled_content'] = $txt['hifg_cannot_view'] . '<br />';
 			}
-
-			// Temp
-			$new_codes[] = $code;
 		}
-		$codes = $new_codes;
+		unset($code);
 	}
 }
