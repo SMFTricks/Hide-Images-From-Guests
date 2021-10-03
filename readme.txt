@@ -9,5 +9,13 @@ Original author: [url=https://simplemachines.org/community/index.php?action=prof
 [size=12pt][color=navy]Introduction[/color][/size]
 [size=8pt]This mod allows you to hide post images from guests.[/size]
 
+[size=12pt][color=maroon]Languages[/color][/size]
+[img]https://www.simplemachines.org/site_images/lang/english.gif[/img] [img]https://www.simplemachines.org/site_images/lang/spanish.gif[/img] [img]https://www.simplemachines.org/site_images/lang/arabic.gif[/img]
 [hr]
+
+[size=12pt][color=orange]Compatibility with other MODs[/color][/size]
+[size=10pt][i][url=https://custom.simplemachines.org/mods/index.php?mod=3303]FancyBox 4 SMF[/url]:[/i][/size] [size=8pt][color=green][url=https://www.simplemachines.org/community/index.php?topic=323597.msg4073061#msg4073061]Guide[/url][/color][/size]
+
+[hr]
+
 [size=12pt][color=purple][url=https://github.com/SMFTricks/Hide-Images-From-Guests]GitHub[/url][/color][/size]
