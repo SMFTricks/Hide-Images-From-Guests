@@ -2,9 +2,9 @@
 
 /**
  * @package Hide Images From Guests
- * @version 2.1
+ * @version 2.2
  * @author Diego Andrés <diegoandres_cortes@outlook.com>
- * @copyright Copyright (c) 2015, Diego Andrés
+ * @copyright Copyright (c) 2021, Diego Andrés
  * @license https://www.mozilla.org/en-US/MPL/2.0/
  */
 
@@ -16,6 +16,9 @@ class HIFG
 	public static function bbc_code(&$codes, &$no_autolink_tags)
 	{
 		global $user_info, $txt;
+
+		// Language
+		loadLanguage('HIFG/');
 
 		foreach ($codes as &$code)
 		{
