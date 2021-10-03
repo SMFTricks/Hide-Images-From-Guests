@@ -3,9 +3,9 @@
 <package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
 	<id>smftricks:hifg</id>
 	<name>Hide Images From Guests</name>
-	<version>2.1</version>
+	<version>2.2</version>
 	<type>modification</type>
-	<install for="2.1 - 2.1.99, 2.1 RC3, 2.1 RC4">
+	<install for="2.1 - 2.1.99, 2.1 RC4">
 		<!-- Mod Readme -->
 		<readme lang="english" parsebbc="true" type="file">readme.txt</readme>
 		<!-- License -->
@@ -14,20 +14,20 @@
 			License, v. 2.0. If a copy of the MPL was not distributed with this
 			file, You can obtain one at https://www.mozilla.org/en-US/MPL/2.0/.
 		</license>
-		<!-- BBC Files -->
+		<!-- Source Files -->
 		<require-dir name="Sources" destination="$boarddir">Source file</require-dir>
-		<!-- Language Edits -->
-		<modification type="file" format="xml">languages.xml</modification>
+		<!-- Language Files -->
+		<require-dir name="Languages/HIFG" destination="$languagedir">Language files</require-dir>
 		<!-- Hooks -->
 		<hook hook="integrate_bbc_codes" function="HIFG::bbc_code" file="$sourcedir/HIFG.php" />
 	</install>
 
-	<uninstall for="2.1 - 2.1.99, 2.1 RC3, 2.1 RC4">
+	<uninstall for="2.1 - 2.1.99, 2.1 RC4">
 		<!-- Hooks Remove -->
 		<hook hook="integrate_bbc_codes" function="HIFG::bbc_code" file="$sourcedir/HIFG.php" reverse="true" />
 		<!-- Source Files -->
 		<remove-file name="$sourcedir/HIFG.php">Source file</remove-file>
-		<!-- Language Edits -->
-		<modification type="file" format="xml" reverse="true">languages.xml</modification>
+		<!-- Languages -->
+		<remove-dir name="$languagedir/HIFG">Language files</remove-dir>
 	</uninstall>
 </package-info>
