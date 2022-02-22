@@ -18,7 +18,7 @@ Original Developer: [url="https://www.simplemachines.org/community/index.php?act
 
 [size=3][color=#cc5d31]Compatibility with other MODs[/color][/size]
 [list]
-[li][url="https://custom.simplemachines.org/mods/index.php?mod=3303"]FancyBox 4 SMF[/url]: [i][size=0.8em][url="https://www.simplemachines.org/community/index.php?topic=323597.msg4073061#msg4073061"][color=#3236a6]Guide[/color][/url][/i][/li]
+[li][url="https://custom.simplemachines.org/mods/index.php?mod=3303"]FancyBox 4 SMF[/url]: [i][size=0.8em][url="https://www.simplemachines.org/community/index.php?topic=323597.msg4073061#msg4073061"][color=#3236a6]Guide[/color][/url][/size][/i][/li]
 [/list]
 [hr]
 
