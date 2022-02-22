@@ -13,7 +13,7 @@ if (!defined('SMF'))
 
 class HIFG
 {
-	public static function bbc_code(&$codes, &$no_autolink_tags)
+	public static function bbc_code(&$codes)
 	{
 		global $user_info, $txt;
 
@@ -28,6 +28,5 @@ class HIFG
 				$code['disabled_content'] = $txt['hifg_cannot_view'] . '<br />';
 			}
 		}
-		unset($code);
 	}
 }
