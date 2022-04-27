@@ -14,8 +14,9 @@ This mod allows you to hide post images from guests.
 
 ### Localization
 - ![English](https://www.simplemachines.org/site_images/lang/english.gif) English
-- ![Spanish](https://www.simplemachines.org/site_images/lang/spanish_es.gif) Spanish
 - ![Arabic](https://www.simplemachines.org/site_images/lang/arabic.gif) Arabic by [islam2hamy](https://www.simplemachines.org/community/index.php?action=profile;u=126024)
+- ![Spanish](https://www.simplemachines.org/site_images/lang/spanish_es.gif) Spanish
+- ![German](https://www.simplemachines.org/site_images/lang/german.gif) German by [Matthias](https://www.simplemachines.org/community/index.php?action=profile;u=389)
 
 ### Compatibility with other MODs
 - [FancyBox 4 SMF](https://github.com/dragomano/FancyBox-4-SMF): [Guide](https://www.simplemachines.org/community/index.php?topic=323597.msg4073061#msg4073061)

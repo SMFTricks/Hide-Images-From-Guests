@@ -13,8 +13,9 @@ Original Developer: [url="https://www.simplemachines.org/community/index.php?act
 
 [size=3][color=#358234]Localization[/color][/size]
 [img]https://www.simplemachines.org/site_images/lang/english.gif[/img] English
-[img]https://www.simplemachines.org/site_images/lang/spanish_es.gif[/img] Spanish
 [img]https://www.simplemachines.org/site_images/lang/arabic.gif[/img] Arabic by [url="https://www.simplemachines.org/community/index.php?action=profile;u=126024"]islam2hamy[/url]
+[img]https://www.simplemachines.org/site_images/lang/spanish_es.gif[/img] Spanish
+[img]https://www.simplemachines.org/site_images/lang/german.gif[/img] German [size=1](FORMAL and INFORMAL)[/size] by [url="https://www.simplemachines.org/community/index.php?action=profile;u=389"]Matthias[/url]
 
 [size=3][color=#cc5d31]Compatibility with other MODs[/color][/size]
 [list]
